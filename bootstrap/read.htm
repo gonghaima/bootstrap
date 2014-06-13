@@ -1,0 +1,145 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Bootstrap 3</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-static-top">
+        <div class="container">
+            <a href="index.htm" class="navbar-brand">Bootstrap Site</a>
+            <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <div class="collapse navbar-collapse navHeaderCollapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <!--<li><a href="#">Social Media</a></li>-->
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Social Media<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Twitter</a></li>
+                            <li><a href="#">Facebook</a></li>
+                            <li><a href="#">Google+</a></li>
+                            <li><a href="#">Instagram</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#contact" data-toggle="modal">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+
+            <div class="col-lg-9">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <div class="page-header">
+                            <h3>What ever your want <small>Posted on July 26th</small></h3>
+                        </div>
+
+                        <!--<img class="featureImg" src="img/Koala.jpg" width="100%"/>-->
+                        <img class="featuredImg" src="img/archlinux-logo-dark-1200dpi.b42bd35d5916.png" width="100%"/>
+                        <p>
+                            Barbecue is a method and apparatus for cooking food (generally meat). In the United States, to grill is to cook meat relatively quickly using the direct heat imparted by a charcoal or propane fire, while barbecue is a much slower method utilizing the indirect heat imparted by the smoke of a wood-fueled fire (and tended to over an extended period of several hours).
+                        </p>
+                        <h4>A heading</h4>
+                          <p>
+                            Barbecue is a method and apparatus for cooking food (generally meat). In the United States, to grill is to cook meat relatively quickly using the direct heat imparted by a charcoal or propane fire, while barbecue is a much slower method utilizing the indirect heat imparted by the smoke of a wood-fueled fire (and tended to over an extended period of several hours).
+                        </p>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="col-lg-3">
+                <div class="list-group">
+                    <a href="#" class="list-group-item active">
+                        <h4 class="list-group-item-heading">Steven Gong</h4>
+                        <p class="list-group-item-text">
+                            The term as a noun can refer to the meat or to the cooking apparatus itself (the "barbecue grill" or simply "barbecue"). The term as an adjective can refer to foods cooked by this method.
+                        </p>
+                    </a>
+                    <a href="#" class="list-group-item">
+                        <h4 class="list-group-item-heading">Steven Gong</h4>
+                        <p class="list-group-item-text">
+                            The term as a noun can refer to the meat or to the cooking apparatus itself (the "barbecue grill" or simply "barbecue"). The term as an adjective can refer to foods cooked by this method.
+                        </p>
+                    </a>
+                    <a href="#" class="list-group-item">
+                        <h4 class="list-group-item-heading">Steven Gong</h4>
+                        <p class="list-group-item-text">
+                            The term as a noun can refer to the meat or to the cooking apparatus itself (the "barbecue grill" or simply "barbecue"). The term as an adjective can refer to foods cooked by this method.
+                        </p>
+                    </a>
+                    <a href="#" class="list-group-item">
+                        <h4 class="list-group-item-heading">Steven Gong</h4>
+                        <p class="list-group-item-text">
+                            The term as a noun can refer to the meat or to the cooking apparatus itself (the "barbecue grill" or simply "barbecue"). The term as an adjective can refer to foods cooked by this method.
+                        </p>
+                    </a>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="navbar navbar-default navbar-fixed-bottom">
+        <div class="container">
+            <p class="navbar-text pull-left">Site Built by Steven</p>
+            <a href="http://youtube.com/codersguide" class="navbar-btn btn-danger btn pull-right">Subscribe on YouTube</a>
+        </div>
+    </div>
+
+       <div class="modal fade" id="contact" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <form class="form-horizontal">
+
+                    <div class="modal-header">
+                        <h4>Contact Tech Site</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="form-group">
+                            <label for="contact-name" class="col-lg-2 control-label">Name:</label>
+                            <div class="col-lg-10">
+                                <input type="text" class="form-control" id="contact-name" placeholder="Full Name" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="contact-email" class="col-lg-2 control-label">Email:</label>
+                            <div class="col-lg-10">
+                                <input type="email" class="form-control" id="contact-email" placeholder="steven@example.com" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="contact-msg" class="col-lg-2 control-label">Message:</label>
+                            <div class="col-lg-10">
+                                <textarea class="form-control" rows="8"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <a class="btn btn-default" data-dismiss="modal">Close
+                        </a>
+                        <button class="btn btn-primary" type ="submit">Send</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>

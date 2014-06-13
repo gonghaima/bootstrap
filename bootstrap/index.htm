@@ -1,0 +1,159 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Bootstrap 3</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <a href="read.htm" class="navbar-brand">Bootstrap Site</a>
+            <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <div class="collapse navbar-collapse navHeaderCollapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <!--<li><a href="#">Social Media</a></li>-->
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Social Media<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Twitter</a></li>
+                            <li><a href="#">Facebook</a></li>
+                            <li><a href="#">Google+</a></li>
+                            <li><a href="#">Instagram</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#contact" data-toggle="modal">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="jumbotron">
+            <center>
+                <h1>Steven, What is what?!</h1>
+                <p>
+                                    What or WHAT may refer to
+                    What, an interrogative pronoun in English:
+                    "What?", one of the Five Ws used in journalism
+                    Web Hypertext Application Technology, a group of people interested in evolving HTML and related technologies
+                    Winter Haven Area Transit, a transit system in Florida, U.S.
+                </p>
+                <a class="btn btn-default">Watch Now!</a>
+                <a class="btn btn-info">Tweet it!</a>
+            </center>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <h3><a href="#">$500 Gaming PC Build</a></h3>
+                <p>
+                                        What?" (song), a song by Rob Zombie
+                    "What?", a song by Corrosion of Conformity from Eye for an Eye
+                    "What?", a song by The Move from Looking On
+                </p>
+                <a href="#" class="btn btn-default" >Read More</a>
+            </div>
+
+            <div class="col-md-3">
+                <h3><a href="#">$500 Gaming PC Build</a></h3>
+                <p>
+                                        What?" (song), a song by Rob Zombie
+                    "What?", a song by Corrosion of Conformity from Eye for an Eye
+                    "What?", a song by The Move from Looking On
+                </p>
+                <a href="#" class="btn btn-default" >Read More</a>
+            </div>
+
+            <div class="col-md-3">
+                <h3><a href="#">$500 Gaming PC Build</a></h3>
+                <p>
+                                        What?" (song), a song by Rob Zombie
+                    "What?", a song by Corrosion of Conformity from Eye for an Eye
+                    "What?", a song by The Move from Looking On
+                </p>
+                <a href="#" class="btn btn-default" >Read More</a>
+            </div>
+
+            <div class="col-md-3">
+                <h3><a href="#">$500 Gaming PC Build</a></h3>
+                <p>
+                                        What?" (song), a song by Rob Zombie
+                    "What?", a song by Corrosion of Conformity from Eye for an Eye
+                    "What?", a song by The Move from Looking On
+                </p>
+                <a href="#" class="btn btn-default" >Read More</a>
+            </div>
+
+            <div class="col-md-3">
+                <h3><a href="#">$500 Gaming PC Build</a></h3>
+                <p>
+                                        What?" (song), a song by Rob Zombie
+                    "What?", a song by Corrosion of Conformity from Eye for an Eye
+                    "What?", a song by The Move from Looking On
+                </p>
+                <a href="#" class="btn btn-default" >Read More</a>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="navbar navbar-default navbar-fixed-bottom">
+        <div class="container">
+            <p class="navbar-text pull-left">Site Built by Steven</p>
+            <a href="http://youtube.com/codersguide" class="navbar-btn btn-danger btn pull-right">Subscribe on YouTube</a>
+        </div>
+    </div>
+
+    <div class="modal fade" id="contact" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <form class="form-horizontal">
+
+                    <div class="modal-header">
+                        <h4>Contact Tech Site</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="form-group">
+                            <label for="contact-name" class="col-lg-2 control-label">Name:</label>
+                            <div class="col-lg-10">
+                                <input type="text" class="form-control" id="contact-name" placeholder="Full Name" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="contact-email" class="col-lg-2 control-label">Email:</label>
+                            <div class="col-lg-10">
+                                <input type="email" class="form-control" id="contact-email" placeholder="steven@example.com" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="contact-msg" class="col-lg-2 control-label">Message:</label>
+                            <div class="col-lg-10">
+                                <textarea class="form-control" rows="8"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <a class="btn btn-default" data-dismiss="modal">Close
+                        </a>
+                        <button class="btn btn-primary" type ="submit">Send</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>
