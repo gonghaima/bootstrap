@@ -1,14 +1,12 @@
 bootstrapTest
 =============
 
-test to see how bootstrap works
+http://119.47.113.13/bootstrap/
+http://119.47.113.13/bootstrap/read.htm
 
+This bootstrap project is made following an online tutorial.
 
-This project (119.47.113.13/bootstrap/) is a small test of bootstrap library.
-
-
-I followed online demo and created the demo.
-
+Please feel free to give me any ideas in UI design.
 
 Steven Gong
 
